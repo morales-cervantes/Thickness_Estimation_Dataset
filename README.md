@@ -1,2 +1,65 @@
-# Thickness_Estimation_Dataset
-This repository contains thermographic and micrometric data from high-temperature oxidation experiments on AISI 1045 steel. The dataset captures total thickness variation—due to thermal expansion, oxide growth, and deformation—used for non-contact regression modeling with infrared imagery.
+# Non-Contact Thickness Estimation of High-Temperature Oxide Layers on AISI 1045 Steel Using Infrared Thermography and Tree-Based Machine Learning
+
+Antony Morales-Cervantes [![ORCID](https://img.shields.io/badge/ORCID-0000--0003--3669--2638-green)](https://orcid.org/0000-0003-3669-2638);  
+Gerardo Marx Chávez-Campos [![ORCID](https://img.shields.io/badge/ORCID-0000--0003--3945--9903-green)](https://orcid.org/0000-0003-3945-9903);  
+Héctor Javier Vergara-Hernández [![ORCID](https://img.shields.io/badge/ORCID-0000--0001--6224--1027-green)](https://orcid.org/0000-0001-6224-1027);  
+Maritza Fabiola León-Bejarano [![ORCID](https://img.shields.io/badge/ORCID-0000--0003--0981--3262-green)](https://orcid.org/0000-0003-0981-3262);
+Jorge Sergio Téllez-Martínez [![ORCID](https://img.shields.io/badge/ORCID-0000--0003--0587--0059-green)](https://orcid.org/0000-0003-0587-0059)
+
+This repository contains the datasets generated for the study **"Non-Contact Thickness Estimation of High-Temperature Oxide Layers on AISI 1045 Steel Using Infrared Thermography and Tree-Based Machine Learning."** The study focuses on predicting total specimen thickness variations — encompassing thermal expansion, oxide growth, and mechanical deformation — using thermographic imaging and supervised regression models.
+
+---
+
+##  Contents
+
+- **Thermal Images**:  
+  Time-series thermograms captured during high-temperature oxidation of AISI 1045 steel using an Optris PI 1M infrared camera.
+
+- **Micrometer Data**:  
+  Thickness measurements acquired using a micrometer, reflecting total changes throughout the experiments.
+
+- **Folder Structure**:
+  - `Thermograms/`: Contains zipped folders per experimental trial.
+  - `Micrometer/`: Contains interpolated CSV files aligning thickness measurements to thermal frames.
+
+---
+
+##  Methodology
+
+Steel specimens were subjected to Joule-heating experiments under controlled conditions. Thermal images were recorded at 1 frame per second. Micrometer readings were taken periodically during heating and cooling stages.  
+The goal was to train machine learning regressors capable of estimating specimen thickness variations purely from thermal imaging data.
+
+---
+
+## Purpose
+
+This dataset supports the advancement of non-invasive monitoring methods in metallurgy, high-temperature material characterization, and industrial quality control using infrared thermography combined with machine learning.
+
+---
+
+## How to Use
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/morales-cervantes/Thickness_Estimation_Dataset.git
+Explore the Dataset:
+
+Thermal images are organized per experiment in Thermograms/.
+
+Thickness measurements corresponding to each thermal sequence are in Micrometer/.
+
+Link the Data: Time-aligned for supervised regression model training.
+
+📄 Data Availability Statement
+The datasets are available through this GitHub repository and will be permanently archived with a DOI via Zenodo upon publication.
+
+## Citation
+If you use this dataset, please cite:
+
+Morales-Cervantes, A., Chávez-Campos, G. M., Téllez-Martínez, J. S., Vergara-Hernández, H. J., León-Bejarano, M. F. (2025). Non-Contact Thickness Estimation of High-Temperature Oxide Layers on AISI 1045 Steel Using Infrared Thermography and Tree-Based Machine Learning.
+
+## Authors' Contributions
+Antony Morales-Cervantes led the data acquisition and analysis. All authors contributed to data interpretation, experimental setup, and manuscript preparation. All authors reviewed and approved the final version of the work.
+
+## License
+This dataset is distributed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
