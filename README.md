@@ -59,7 +59,7 @@ The datasets are available through this GitHub repository and will be permanentl
 ## Citation
 If you use this dataset, please cite:
 
-Morales-Cervantes, A., Chávez-Campos, G. M., Téllez-Martínez, J. S., Vergara-Hernández, H. J., León-Bejarano, M. F. (2025). Non-Contact Thickness Estimation of High-Temperature Oxide Layers on AISI 1045 Steel Using Infrared Thermography and Tree-Based Machine Learning.
+Morales-Cervantes, A., Chávez-Campos, G. M., Vergara-Hernández, H. J., León-Bejarano, M. F., Téllez-Martínez, J. S. (2025). Non-Contact Thickness Estimation of High-Temperature Oxide Layers on AISI 1045 Steel Using Infrared Thermography and Tree-Based Machine Learning.
 
 ## Authors' Contributions
 Antony Morales-Cervantes led the data acquisition and analysis. All authors contributed to data interpretation, experimental setup, and manuscript preparation. All authors reviewed and approved the final version of the work.
