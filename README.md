@@ -19,15 +19,18 @@ This repository contains the datasets generated for the study **"Non-Contact Thi
   Thickness measurements acquired using a micrometer, reflecting total changes throughout the experiments.
 
 - **Folder Structure**:
-  - `Thermograms/`: Contains zipped folders per experimental trial.
-  - `Micrometer/`: Contains interpolated CSV files aligning thickness measurements to thermal frames.
+  - `Thermograms/`: Contains zipped folders for each experiment with thermal images in CSV.
+  - `Micrometer/`: Contains xlsx files with thickness measurements that match thermal image timestamps.
+ 
+Across all experiments, a total of 3386 synchronized thermal frames and thickness measurements were collected.
 
 ---
 
 ##  Methodology
 
-Steel specimens were subjected to Joule-heating experiments under controlled conditions. Thermal images were recorded at 1 frame per second. Micrometer readings were taken periodically during heating and cooling stages.  
+Steel specimens were subjected to Joule-heating experiments under controlled conditions. Thermal images were recorded. Micrometer readings were taken periodically during heating and cooling stages.  
 The goal was to train machine learning regressors capable of estimating specimen thickness variations purely from thermal imaging data.
+Each experiment yielded approximately 700 paired measurements of temperature fields and corresponding specimen thickness values. This dense temporal sampling enabled precise tracking of thickness evolution throughout the oxidation process.
 
 ---
 
